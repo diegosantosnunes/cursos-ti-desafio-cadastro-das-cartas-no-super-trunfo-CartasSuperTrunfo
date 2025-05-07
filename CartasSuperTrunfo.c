@@ -28,7 +28,7 @@ int main() {
     printf("\n");
 
     printf("carta: ");
-    scanf("%c", &carta);
+    scanf("%c", carta);
     
     printf("codigo da carta: ");
     scanf("%s", codigo);
@@ -55,10 +55,10 @@ int main() {
     //Informaçoes de entrada da proxima carta do jogo
 
     printf("carta: ");
-    scanf(" %c", &carta);
+    scanf(" %c", carta);
 
     printf("codigo da carta: ");
-    scanf("%s", &codigo);
+    scanf("%s", codigo);
 
     printf("numero da populacao: ");
     scanf("%d", &populacao);
@@ -67,10 +67,10 @@ int main() {
     scanf("%f", &area);
 
     printf("nome da cidade: ");
-    scanf(" %s", &cidade);
+    scanf(" %s", cidade);
 
     printf("nome do estado: ");
-    scanf(" %c", &estado);
+    scanf(" %c", estado);
 
     printf("PiB: ");
     scanf("%f", &PiB);
